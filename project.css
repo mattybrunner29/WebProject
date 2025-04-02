@@ -1,0 +1,160 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0A1F44;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+    max-width: 600px;
+}
+
+.profile-pic {
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 3px solid #D6001C;
+}
+
+.social {
+    display: inline-block;
+    background: none;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.button {
+    display: block;
+    background: #D6001C;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background: #FF1C1C;
+    transform: scale(1.05);
+}
+
+footer {
+    font-size: 0.8em;
+    margin-top: 20px;
+    opacity: 0.7;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.username {
+    font-family: 'Bangers', cursive;
+    font-size: 2.5em;
+    color: #D6001C;
+    text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.5);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #fff;
+}
+
+th {
+    background-color: #D6001C;
+    color: white;
+    font-size: 1.2em;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+tr:nth-child(even) {
+    background-color: #1f2a44;
+}
+
+tr:hover {
+    background-color: #3e4e73;
+}
+
+form {
+    background-color: #0A1F44;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    width: 80%;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.2em;
+    color: #D6001C;
+    text-align: left;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #D6001C;
+    border-radius: 10px;
+    background-color: #1f2a44;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #FF1C1C;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+form button {
+    background-color: #D6001C;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #FF1C1C;
+    transform: scale(1.1);
+}
+
+.error {
+    color: #FF1C1C;
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
